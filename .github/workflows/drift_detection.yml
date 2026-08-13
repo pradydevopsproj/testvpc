@@ -6,7 +6,7 @@ on:
   workflow_dispatch: # Allows manual triggering
 
 env:
-  AWS_REGION: us-east-1
+  AWS_REGION: ap-south-1
   TF_WORKING_DIR: lessons/day30/code
 
 jobs:
