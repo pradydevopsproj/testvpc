@@ -13,7 +13,7 @@ systemctl start nginx
 systemctl enable nginx
 
 # Create a simple HTML page
-echo "<h1>Welcome to the AWS Infrastructure Project - Proper 2-Tier Architecture (Ubuntu)</h1>" > /var/www/html/index.html
+echo "<h1>Welcome to the AWS Infrastructure Project - Proper 2-Tier Architecture pradyumna (Ubuntu)</h1>" > /var/www/html/index.html
 
 # Adjust the firewall to allow HTTP traffic
 ufw allow 'Nginx Full'

@@ -49,7 +49,8 @@ variable "availability_zones" {
 variable "ami_id" {
   description = "AMI ID for EC2 instances"
   type        = string
-  default     = "ami-0c398cb65a93047f2" # Ubuntu 22.04 LTS
+  #default     = "ami-0c398cb65a93047f2" # Ubuntu 22.04 LTS --most likely from us-east-1 region 
+  default = "ami-01a00762f46d584a1" # Ubuntu Server 26.04 LTS  freetier eligible -mumbai region -prady
 }
 
 variable "instance_type" {
