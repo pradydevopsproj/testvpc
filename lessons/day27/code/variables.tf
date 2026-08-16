@@ -76,3 +76,9 @@ variable "min_size" {
   type        = number
   default     = 1
 }
+
+variable "myip" {
+  description = "my ip address"
+  type        = string
+  default     = "103.150.139.211"
+}
